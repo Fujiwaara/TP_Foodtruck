@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
     <link rel="icon" href="./Images/Logo-chez-melo.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
@@ -10,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chez Mélo</title>
 </head>
 <body>
     <div id="fb-root"></div>
@@ -35,11 +36,8 @@
             <div class="fb-page" data-href="https://www.facebook.com/letruckdeChezmelo/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/letruckdeChezmelo/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/letruckdeChezmelo/">Le Truck de Chez Mélo</a></blockquote></div>
         </div>
 
-        <div class="presentationM1">
-            <p>Bonjour, <br> Je m'appelle Mélody .. d'où l'appellation <br> "Chez Mélo"</p>
-        </div>
-
-        <div class="presentationM2"> 
+        <div class="presentationM">
+            <p>Bonjour, <br> Je m'appelle Mélody .. d'où l'appellation <br> "Chez Mélo"</p>         
             <p> Le concept de mon Food truck est de me servir au maximum des produits locaux et Francais mais aussi fait maison.
             J'espère que vous apprécierez mon petit Food truck et que cela permettra de vous facilité les moments de repas.</p> 
             <p> Des événements tels qu'anniversaire, lendemain de mariage, marché etc.. peuvent se faire avec grand plaisir.
@@ -60,39 +58,39 @@
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/burger-maison.jpeg" alt="Burger maison" class="Menu_figure_img_1">
-                    <figcaption>
+                    <div class="figure_content">
                         <h3 class="Menu_figure_h3">Burger maison</h3>
                         <p>- pain artisanal <br>
                             - steak haché ou poulet pané maison frit <br>
                             - fromage au choix du moment <br>
                             - légumes de saison et sauce maison
                         </p>
-                    </figcaption> 
+                    </div>                     
                     <div class="Menu_prix">
                         <p>Seul 8€ ou en menu à 10€</p>
-                    </div>                         
+                    </div>                                             
                 </figure>
             </a>
 
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/Assiette-poulet-pane.jpg" alt="Assiette poulet pané" class="Menu_figure_img_2">
-                    <figcaption>
+                    <div class="figure_content">
                         <h3 class="Menu_figure_h3">Assiette poulet pané</h3>
                         <p>- steack haché ou poulet pané maison frit <br>
                             - frites maison
                         </p>
-                    </figcaption> 
+                    </div>                    
                     <div class="Menu_prix">
                         <p>Seul 8€ ou en menu à 9€</p>
-                    </div>                         
+                    </div>                                             
                 </figure>
             </a>
 
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/salade-du-moment.jpg" alt="Salade du moment" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Salade du moment</h3></figcaption>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Salade du moment</h3></div>                    
                     <div class="Menu_prix">
                         <p>Seul 8€ ou en menu à 10€</p>
                     </div>                        
@@ -102,7 +100,7 @@
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/portion-petite-frites.jpg" alt="Portion petite frite" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Portion petite fritte</h3></figcaption>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Portion petite fritte</h3></div>
                     <div class="Menu_prix">
                         <p>Seul 1.50€</p>
                     </div>                         
@@ -112,7 +110,7 @@
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/Portion-Grande-Frite.jfif" alt="portion grande frite" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">portion grande frite</h3></figcaption>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">portion grande frite</h3></div>                    
                     <div class="Menu_prix">
                         <p>Seul 2.50€</p>
                     </div>                          
@@ -122,39 +120,40 @@
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/biere-artisanale.jpg" alt="Biere artisanal" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Biere artisanal</h3></figcaption>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Biere artisanal</h3></div>
                     <div class="Menu_prix">
                         <p>Seul 1€</p>
-                    </div>                         
+                    </div>                                             
                 </figure>
             </a>
 
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/boisson-33cl.jpg" alt="Boisson 33cl" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Boisson 33cl</h3></figcaption>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Boisson 33cl</h3></div>                    
                     <div class="Menu_prix">
                         <p>Seul 1.50€</p>
-                    </div>                           
+                    </div>                                              
                 </figure>
             </a>
 
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/bierre-1664.jfif" alt="Biere 1664" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Biere 1664</h3></figcaption>
-                    <div class="Menu_prix">
-                        <p>Seul 3.50€</p>
-                    </div>                           
-                </figure>
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Biere 1664</h3></div>                    
+                        <div class="Menu_prix">
+                            <p>Seul 3.50€</p>                                
+                        </div>                                               
+                </figure>            
+            </a>
 
             <a href="#" class="Menu_figure_a">                        
                 <figure class="Menu_figure">                                
                     <img src="./Images/eau-cristaline-50cl.jpg" alt="Eau cristaline 50cl" class="Menu_figure_img">
-                    <figcaption><h3 class="Menu_figure_h3">Eau cristaline 50cl</h3></figcaption>
-                    <div class="Menu_prix">
-                        <p>Seul 2.50€</p>
-                    </div>                           
+                    <div class="figure_content"><h3 class="Menu_figure_h3">Eau cristaline 50cl</h3></div>                    
+                        <div class="Menu_prix">
+                            <p>Seul 2.50€</p>
+                        </div>                                               
                 </figure>
             </a>
 
@@ -166,9 +165,10 @@
 
     <div id="horraire" class="horraire">
         <h2>Mes horraires</h2>
-        <p>Le lundi, de 10h30 à 14h à Boé<br> Le mardi, de 10h30 à 14h à Boé, et à St Antoine de Ficalba de 18h à 21h<br>            
-            Le jeudi, de 10h30 à 14h à Boé<br> Le vendredi, de 10h30 à 14h à Boé, et à Laugnac de 18h à 21h
-        </p>
+        <p>Le lundi, de 10h30 à 14h à Boé</p>
+        <p>Le mardi, de 10h30 à 14h à Boé, et à St Antoine de Ficalba de 18h à 21h</p>            
+        <p>Le jeudi, de 10h30 à 14h à Boé</p>
+        <p>Le vendredi, de 10h30 à 14h à Boé, et à Laugnac de 18h à 21h</p>
     </div>
 
     <div id="emplacements" class="mapGoogle">
@@ -186,8 +186,8 @@
         </div>
 
         <div class="planSite">
+            <h3>Plan du site</h3>
             <ul>
-                <h3>Pan du site</h3>
                 <li><a href="#Accueil">Accueil</a></li>
                 <li><a href="#Menu">Nos pruduits</a></li>
                 <li><a href="#horraire">Mes horraires</a></li>
